@@ -1,4 +1,5 @@
 ## Braxton
+![doofus](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Pictures/Scan0001.jpg)
 Group lead that will organize efforts to make our project. Will be active with communication and help team members when needed! :)
 
 ## Anna
