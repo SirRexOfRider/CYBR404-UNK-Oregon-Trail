@@ -2,7 +2,7 @@
 Group lead that will organize efforts to make our project. Will be active with communication and help team members when needed! :)
 
 ## Anna
-![gettingera](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Pictures/gettingera.png)
+![gettingera](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Pictures/agettinger.png)
 - Documentation Lead 
 - Will gather and keep track of all documentation associated with project 
 
