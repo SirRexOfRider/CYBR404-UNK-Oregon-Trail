@@ -2,7 +2,8 @@
 [Members](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Members.md)
 <hr>
 
-[Problem Statement]()
+[Problem Statement](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Problem%20Statement)
+
 [Planning](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Planning.md)
 
 [Requirements](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Requirements/Requirements.md)
