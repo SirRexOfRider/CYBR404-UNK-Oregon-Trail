@@ -1,5 +1,5 @@
-# A Nifty Dungeons and Dragons esque Orgeon Trail esque Survive the Day at UNK Game (TM)
-[Members](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Members)
+# A Nifty, Dungeons and Dragons-esque, Oregon Trail-esque, Survive the Day at UNK Game™
+[Members](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Members.md)
 <hr>
 
 [Planning](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Planning.md)
