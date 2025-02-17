@@ -2,6 +2,6 @@ Braxton: Group lead that will organize efforts to make our project. Will be acti
 
 Anna:
 
-Adonis:
+Adonis: Code Lead that will do the coding for the project. Will ask for help when needed.
 
 Nate:
