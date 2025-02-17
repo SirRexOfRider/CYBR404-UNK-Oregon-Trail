@@ -8,4 +8,5 @@ Group lead that will organize efforts to make our project. Will be active with c
 ## Adonis 
 Code Lead that will do the coding for the project. Will ask for help when needed.
 
-## Nate
+## Nate 
+Design lead, my role will be to come up with and implement a working design for our project and also be useful wherever else I am needed.
