@@ -12,7 +12,7 @@ Design lead, my role will be to come up with and implement a working design for 
 ## Anna
 ![gettingera](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Pictures/agettinger.png)
 
-The documentation lead will gather and keep track of all documentation associated with the project. Specifically, documentation lead will check in with team members twice a week on Wednesday and Friday to see if there is any new information to be added to current documentation. The documentation lead will update both the GitHub repository and the physical documentation kept in the team’s binder with any new documentation after receiving new documentation. The documentation lead will then produce the binder when giving progress reports in class. 
+The documentation lead will gather and keep track of all documentation associated with the project. Specifically, documentation lead will check in with team members twice a week on Wednesday and Friday to see if there is any new information to be added to current documentation. The documentation lead will update both the GitHub repository and the physical documentation kept in the team’s binder with any new documentation after receiving new documentation. The documentation lead will then give the binder to the team lead to hand in every week.
 
 On a weekly basis, the documentation lead will:
 ### Week 1
