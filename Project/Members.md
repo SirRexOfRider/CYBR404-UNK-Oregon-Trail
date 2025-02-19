@@ -1,7 +1,7 @@
 ## Braxton
 ![doofus](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Pictures/Scan0001.jpg)
 
-The group lead will help coordinate and combine efforts of other working within the team. It is the team leader's job to make sure everyone is on the same page and getting their assigned portions of the assignment done. The team lead will also be setting milestones as well as issuing tasks to be done within a certain timeframe in order to ensure the project's completion.
+The group lead will help coordinate and combine efforts of other team members working within the team. It is the team leader's job to make sure everyone is on the same page and getting their assigned portions of the assignment done. The team lead will also be setting milestones as well as issuing tasks to be done within a certain timeframe in order to ensure the project's completion.
 
 On a weekly basis, the team lead will:
 ### Week 1
