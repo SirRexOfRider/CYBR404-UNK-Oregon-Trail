@@ -5,21 +5,21 @@ The group lead will help coordinate and combine efforts of other working within 
 
 On a weekly basis, the team lead will:
 ### Week 1
--Form Github Repository and project
--Assign members to the repo and project
--Make milestones and deadlines for parts of the week's assignment
--Make sure everyone is on the same page and communicating
--Assist wherever needed by the team
+- Form Github Repository and project
+- Assign members to the repo and project
+- Make milestones and deadlines for parts of the week's assignment
+- Make sure everyone is on the same page and communicating
+- Assist wherever needed by the team
 
 ### Week 2
--Make milestones and deadlines for parts of the week's assignment
--Make sure everyone is on the same page and communicating
--Assist wherever needed by the team
+- Make milestones and deadlines for parts of the week's assignment
+- Make sure everyone is on the same page and communicating
+- Assist wherever needed by the team
 
 ### Week 3
--Make milestones and deadlines for parts of the week's assignment
--Make sure everyone is on the same page and communicating
--Assist wherever needed by the team
+- Make milestones and deadlines for parts of the week's assignment
+- Make sure everyone is on the same page and communicating
+- Assist wherever needed by the team
 
 
 ## Adonis 
