@@ -1,7 +1,26 @@
 ## Braxton
 ![doofus](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Pictures/Scan0001.jpg)
 
-Group lead that will organize efforts to make our project. Will be active with communication and help team members when needed! :)
+The group lead will help coordinate and combine efforts of other working within the team. It is the team leader's job to make sure everyone is on the same page and getting their assigned portions of the assignment done. The team lead will also be setting milestones as well as issuing tasks to be done within a certain timeframe in order to ensure the project's completion.
+
+On a weekly basis, the team lead will:
+### Week 1
+-Form Github Repository and project
+-Assign members to the repo and project
+-Make milestones and deadlines for parts of the week's assignment
+-Make sure everyone is on the same page and communicating
+-Assist wherever needed by the team
+
+### Week 2
+-Make milestones and deadlines for parts of the week's assignment
+-Make sure everyone is on the same page and communicating
+-Assist wherever needed by the team
+
+### Week 3
+-Make milestones and deadlines for parts of the week's assignment
+-Make sure everyone is on the same page and communicating
+-Assist wherever needed by the team
+
 
 ## Adonis 
 Code Lead that will do the coding for the project. Will ask for help when needed.
