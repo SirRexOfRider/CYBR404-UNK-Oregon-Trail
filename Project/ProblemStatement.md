@@ -1,7 +1,1 @@
-The University Of Kearney is getting tired of people not being able to find their way accross campus (especially Adam)! To help this, Adam enlists
-top grade Software Engineers to help make an "educational" map around campus. To make sure people want to interact with this map, the group decides
-to make a video game to both teach and entertain those at UNK.
-
-We plan on making an Orgeon Trail-esque text based adventure game that takes place at UNK, utilizing locations and entities found here on campus.
-There is also a plan to incorporate elements of DND because why not?!
-We also plan on keeping this relatively simple (cough cough *Braxton* cough cough) and plan on having it done within the next 3 weeks.
+As with any new project, there’s always the question: What is the point? Or why do we need this? What problem could this be solving? While the world is full of problems, there is a reoccurring one that many a software engineer has tried to solve before: absolute boredom. Pure boredom is the problem that our game, A Nifty, Dungeons and Dragons-esque, Oregon Trail-esque, Survive the Day at UNK Game™, attempts to solve. With the results of player choices changing every time the game is opened, our game gives the opportunity for new and interesting playthroughs over and over again, retaining player attention and keeping boredom at bay. So, never fear – A Nifty, Dungeons and Dragons-esque, Oregon Trail-esque, Survive the Day at UNK Game™ is here.
