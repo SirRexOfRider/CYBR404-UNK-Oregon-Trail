@@ -6,6 +6,6 @@
 - [Idea Statement](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/IdeaStatement.md)
 - [Problem Statement](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/ProblemStatement.md)
 - [Planning](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/tree/main/Project/Planning)
-- [Requirements](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Requirements/Requirements.md)
+- [Requirements](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/tree/main/Project/Requirements)
 <hr>
 
