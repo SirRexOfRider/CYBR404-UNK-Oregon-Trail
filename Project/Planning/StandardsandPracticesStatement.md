@@ -16,4 +16,6 @@
 -	Ex. for first instance of Pet class, use p1 = Pet()
   
 •	Programming languages 
--	Python 
+-	Python
+
+[Back to Planning](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Planning.md)
