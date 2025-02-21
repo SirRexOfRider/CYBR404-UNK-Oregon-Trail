@@ -2,3 +2,5 @@ For our timeline, we plan on having due dates for certain steps to be achieved d
 
 The graph of our current timeline resides in the Planning section, or can be found using this link:
 [Timeline Graph](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/CYBR404-Timeline.png)
+
+[Back to Planning](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Planning.md)
