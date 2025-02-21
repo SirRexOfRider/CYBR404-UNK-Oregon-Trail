@@ -4,7 +4,7 @@
 
 ### Contents
 - [Idea Statement](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/IdeaStatement.md)
-- [Planning]([https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/tree/main/Project/Planning](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Planning.md)
+- [Planning](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Planning.md)
 - [Requirements](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/tree/main/Project/Requirements)
 <hr>
 
