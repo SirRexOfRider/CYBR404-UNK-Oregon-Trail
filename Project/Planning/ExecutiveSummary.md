@@ -8,6 +8,6 @@
   -	Create a game using random that allows for multiple unique game plays that alleviate boredom for a longer time
     
 •	Expected deliverables 
-  
+
   -	A command line game with user choices that utilizes random to give random results 
  
