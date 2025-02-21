@@ -26,14 +26,20 @@ On a weekly basis, the team lead will:
 ![Screenshot 2025-02-19 10 32 27 AM](https://github.com/user-attachments/assets/878dc55e-9053-4984-abf6-8b3f09636829)
 
 Code Lead that will do the coding for the project. Will ask for help when needed.
+
+On a weekly basis, the team lead will:
 ### Week 1
-- 
+- Make suggestions the problem frame to in terms of coding and how to start coding the project
+- Ask questions for what the project is meant to be like.
 
 ### Week 2
-- 
+- Begin coding to solve basic problems and setup for the more complex problems
+- Suggest ideas and analyze the data flow diagram
 
 ### Week 3
-- 
+- Finalize code for the more complex problems.
+- Begin testing code with test user input.
+- Fix any bugs or errors the code has.
 
 
 
