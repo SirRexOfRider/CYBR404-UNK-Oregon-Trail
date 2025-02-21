@@ -23,7 +23,19 @@ On a weekly basis, the team lead will:
 
 
 ## Adonis 
+![Screenshot 2025-02-19 10 32 27 AM](https://github.com/user-attachments/assets/878dc55e-9053-4984-abf6-8b3f09636829)
+
 Code Lead that will do the coding for the project. Will ask for help when needed.
+### Week 1
+- 
+
+### Week 2
+- 
+
+### Week 3
+- 
+
+
 
 ## Nate 
 Design lead, my role will be to come up with and implement a working design for our project and also be useful wherever else I am needed.
