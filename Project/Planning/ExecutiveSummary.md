@@ -1,6 +1,5 @@
 
 •	Problem
-  
 - Boredom
   
 •	Process to solve it/proposed solution
