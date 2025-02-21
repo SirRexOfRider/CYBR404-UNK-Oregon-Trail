@@ -17,4 +17,6 @@
 -	User will not be able to break program with bad user input 
 -	Dying will take the user back to the top of gameplay 
 -	Items collected will be stored and accessible from a list/array 
--	Surviving the game will end gameplay with a “You won!” message 
+-	Surviving the game will end gameplay with a “You won!” message
+
+[Back to Planning](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Planning.md)
