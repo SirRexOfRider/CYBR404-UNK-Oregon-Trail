@@ -16,10 +16,12 @@ As with any new project, there’s always the question: What is the point? Or wh
 
 Diagrams:
 
--[Software Engineering Problem Frame](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Problem_Frame_UNKool.png)
+- [Software Engineering Problem Frame](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Problem_Frame_UNKool.png)
 
--[Security Engineering Problem Frame](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/security_frame.drawio%20(1).png)
+- [Security Engineering Problem Frame](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/security_frame.drawio%20(1).png)
 
-[Problem Summary](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Problem_Summary.md)
+Summary:
+
+- [Problem Summary](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Problem_Summary.md)
 
 [Back to Requirements](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Requirements/Requirements.md)
