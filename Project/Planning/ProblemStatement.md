@@ -14,7 +14,8 @@ As with any new project, there’s always the question: What is the point? Or wh
 •	Who will use your system
 -	People at UNK or anyone curious about how totally cool the game is
   
-•	[Problem Frame](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Problem_Frame_UNKool.png)
+-	[Software Engineering Problem Frame](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Problem_Frame_UNKool.png)
+- [Security Engineering Problem Frame](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/security_frame.drawio%20(1).png)
 
 •	[Problem Summary](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Problem_Summary.md)
 
