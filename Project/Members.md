@@ -67,4 +67,6 @@ On a weekly basis, the documentation lead will:
 -	Help update GitHub with new required sections
 -	Update documentation with new required sections 
 -	Assist with implementation, testing, and maintenance as instructed by team lead 
--	Check in with team members on Wednesday and Friday for new documentation to add to collected documents 
+-	Check in with team members on Wednesday and Friday for new documentation to add to collected documents
+
+[Home Page](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/tree/main)
