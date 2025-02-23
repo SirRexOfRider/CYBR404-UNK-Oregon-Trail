@@ -71,7 +71,7 @@ On a weekly basis, the design lead will:
 ## Anna
 ![gettingera](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Pictures/agettinger.png)
 
-The documentation lead will gather and keep track of all documentation associated with the project. Specifically, documentation lead will check in with team members twice a week on Wednesday and Friday to see if there is any new information to be added to current documentation. The documentation lead will update both the GitHub repository and the physical documentation kept in the team’s binder with any new documentation after receiving new documentation. The documentation lead will then give the binder to the team lead to hand in every week.
+The documentation lead will gather and keep track of all documentation associated with the project. Specifically, documentation lead will check in with team members twice a week on Wednesday and Sunday to see if there is any new information to be added to current documentation. The documentation lead will update the physical documentation kept in the team’s binder with any new documentation after receiving it. Additionally, the documentation lead will send the digital documentation file to the team lead to update files on GitHub appropriately. The documentation lead will then give the binder to the team lead to hand in every week.
 
 On a weekly basis, the documentation lead will:
 ### Week 1
@@ -79,16 +79,16 @@ On a weekly basis, the documentation lead will:
 -	Put together physical documentation in Word document of all required sections
 -	Print out physical documentation and put into binder 
 -	Assist other team members with coming up project idea 
--	Check in with team members on Wednesday and Friday for new documentation to add to collected documents 
+-	Check in with team members on Wednesday and Sunday for new documentation to add to collected documents 
 ### Week 2
 - Help update GitHub with new required sections
 -	Update documentation with new required sections 
 -	Assist with design and implementation as instructed by team lead 
--	Check in with team members on Wednesday and Friday for new documentation to add to collected documents
+-	Check in with team members on Wednesday and Sunday for new documentation to add to collected documents
 ### Week 3
 -	Help update GitHub with new required sections
 -	Update documentation with new required sections 
 -	Assist with implementation, testing, and maintenance as instructed by team lead 
--	Check in with team members on Wednesday and Friday for new documentation to add to collected documents
+-	Check in with team members on Wednesday and Sunday for new documentation to add to collected documents
 
 [Home Page](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/tree/main)
