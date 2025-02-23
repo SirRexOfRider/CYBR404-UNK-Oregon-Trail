@@ -49,8 +49,9 @@ The design lead is responsible in making sure all design acpects of the project 
 On a weekly basis, the design lead will
 ### Week 1 
 -Assist team in getting a problem frame diagram completed. 
--Ensure a problem summary is complete
--Assist wherever else needed 
+-Ensure a problem summary is complete.
+-Assist wherever else needed.
+
 ### Week 2
 -Complete a level 0 and level 1 data flow diagram
 -Complete a UML diagram
@@ -58,6 +59,7 @@ On a weekly basis, the design lead will
 -Complete a security design docket
 -Complete any other neccessary UML diagrams
 -Assist team wherver else I am needed
+
 ### Week 3
 -Assist team lead in Github
 -Assist with coding, finalization and maintenance
