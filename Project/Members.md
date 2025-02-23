@@ -44,6 +44,9 @@ On a weekly basis, the team lead will:
 
 
 ## Nate 
+
+![nathanmerzgit](https://github.com/user-attachments/assets/8b4a642a-89d4-4cd9-93dc-84045dc96500)
+
 The design lead is responsible in making sure all design acpects of the project are done appropiatley, the design lead will ensure that a problem frame diagram is complete, and aslo ensure that a level 0 and a level 1 data flow diagram are completed as well as a  UML diagram. The design lead will also need to ensure that a executive design docket and a security design docket are completed as well. As the design lead I will help make sure to help my teamates where I can and also make sure to help out wherever else I am needed. 
 
 On a weekly basis, the design lead will
