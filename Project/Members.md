@@ -25,9 +25,10 @@ On a weekly basis, the team lead will:
 ## Adonis 
 ![Screenshot 2025-02-19 10 32 27 AM](https://github.com/user-attachments/assets/878dc55e-9053-4984-abf6-8b3f09636829)
 
-Code Lead that will do the coding for the project. Will ask for help when needed.
+The code lead is responsible for creating the applications and prototypes the team will
+analyze and assess. The code lead will also analyze the problem frame and the data flow diagrams for realism and communicating to the rest of the team if an a part of the design can't be converted into a technical artifact.
 
-On a weekly basis, the team lead will:
+On a weekly basis, the code lead will:
 ### Week 1
 - Make suggestions the problem frame to in terms of coding and how to start coding the project
 - Ask questions for what the project is meant to be like.
