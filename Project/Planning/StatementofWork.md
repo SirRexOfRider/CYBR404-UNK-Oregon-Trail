@@ -1,3 +1,5 @@
+**Statement of Work**
+
 **•	Project objectives**
 Our project objective is to create a choose-your-own adventure style game using PyCharm on command line. The project will implement user input validation to keep the program from crashing as it receives user inputs to determine player choices in the game. Our overall goal is to create a fun product that users will enjoy and be able to play over and over again.t
   
