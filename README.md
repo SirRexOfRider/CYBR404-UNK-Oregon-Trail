@@ -1,7 +1,7 @@
 # A Nifty, Dungeons and Dragons-esque, Oregon Trail-esque, Survive the Day at UNK Game™
 <hr>
 
-*Section 1: Team Details and Problem Statement*
+**Section 1: Team Details and Problem Statement**
 
 
 - 1.1 Idea Explanation and Statement
