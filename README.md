@@ -10,7 +10,7 @@
 
 **Section 2: Planning**
 
-- 2.1 Executive Summary 
+- 2.1 [Executive Summary](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/ExecutiveSummary.md)
 
 - 2.2 Statement of Work
 
