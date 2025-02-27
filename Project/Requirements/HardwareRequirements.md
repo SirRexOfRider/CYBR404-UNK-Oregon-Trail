@@ -1,4 +1,7 @@
 
+[Home Page](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/tree/main)
+<hr>
+
 **Hardware Requirements**
 
 The hardware requirements are as follows:
@@ -11,4 +14,4 @@ The hardware requirements are as follows:
     
     · Access to a printer to print out documentation
 
-[Back to Requirements](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Requirements/Requirements.md)
+
