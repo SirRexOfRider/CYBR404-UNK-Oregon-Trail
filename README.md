@@ -30,7 +30,7 @@
 
 - 3.1 User Requirements 
 
-- 3.2 Hardware Requirements
+- 3.2 [Hardware Requirements](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Requirements/HardwareRequirements.md)
 
 - 3.3 Software Requirements 
 
