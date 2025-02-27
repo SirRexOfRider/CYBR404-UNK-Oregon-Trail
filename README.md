@@ -32,7 +32,7 @@
 
 - 3.2 [Hardware Requirements](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Requirements/HardwareRequirements.md)
 
-- 3.3 Software Requirements 
+- 3.3 [Software Requirements](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Requirements/SoftwareRequirements.md)
 
 - 3.4 [Security Requirements](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Requirements/SecurityRequirements.md)
 
