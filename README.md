@@ -16,7 +16,7 @@
 
 - 2.3 [Timeline](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Timeline.md)
 
-- 2.4 Final Problem Statement 
+- 2.4 [Final Problem Statement](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Problem_Summary.md)
 
 - 2.5 Software Engineering Problem Frame 
 
