@@ -20,7 +20,7 @@
 
 - 2.5 Software Engineering Problem Frame 
 
-- 2.6 Outcome Summary 
+- 2.6 [Outcome Summary](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/OutcomeSummary.md)
 
 - 2.7 Security Statement 
 
