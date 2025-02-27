@@ -36,7 +36,7 @@
 
 - 3.4 [Security Requirements](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Requirements/SecurityRequirements.md)
 
-- 3.5 Security Engineering Problem Frames  
+- [Security Engineering Problem Frame](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/security_frame.drawio%20(1).png) 
 
 
 <hr>
