@@ -12,7 +12,7 @@
 
 - 2.1 [Executive Summary](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/ExecutiveSummary.md)
 
-- 2.2 Statement of Work
+- 2.2 [Statement Of Work](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/StatementofWork.md)
 
 - 2.3 Timeline 
 
