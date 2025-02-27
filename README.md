@@ -4,7 +4,7 @@
 **Section 1: Team Details and Problem Statement**
 
 
-- 1.1 Idea Explanation and Statement
+- 1.1 [Idea Explanation and Statement](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/IdeaStatement.md)
 
 - 1.2 [Members](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Members.md)
 
@@ -42,7 +42,6 @@
 <hr>
 
 ### Contents
-- [Idea Statement](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/IdeaStatement.md)
 - [Planning](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Planning.md)
 - [Requirements](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Requirements/Requirements.md)
 - [Design](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Design/Design.md)
