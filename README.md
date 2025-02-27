@@ -24,7 +24,7 @@
 
 - 2.7 [Security Statement](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/SecurityStatement.md)
 
-- 2.8 Standards and Practices Statement
+- [Standards & Practices Statement](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/StandardsandPracticesStatement.md)
 
 **Section 3: Requirements**
 
