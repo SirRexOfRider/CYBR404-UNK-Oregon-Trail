@@ -1,3 +1,6 @@
+[Home Page](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/tree/main)
+<hr>
+
 **Statement of Work**
 
 **•	Project objectives**
@@ -18,4 +21,3 @@ We decided not to use several different elements for the sake of time, since thi
 -	Items collected will be stored and accessible from a list/array 
 -	Surviving the game will end gameplay with a “You won!” message
 
-[Back to Planning](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Planning.md)
