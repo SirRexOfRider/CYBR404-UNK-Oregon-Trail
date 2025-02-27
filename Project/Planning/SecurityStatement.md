@@ -1,3 +1,5 @@
+[Home Page](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/tree/main)
+<hr>
 
 **Security Statement**
 
@@ -8,5 +10,4 @@ Regarding user input, all user input will be validated appropriately to ensure t
 
 With data attributes in classes, all created data attributes will be made private from the start so that they cannot be accessed outside of the class. By building privatized data attributes directly into our coding style, this will protect data attributes from being malformed from outside the class.
 
-[Back to Planning](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Planning/Planning.md)
 
