@@ -8,7 +8,7 @@
 
 - 1.2 [Members](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Members.md)
 
-*Section 2: Planning*
+**Section 2: Planning**
 
 - 2.1 Executive Summary 
 
@@ -26,7 +26,7 @@
 
 - 2.8 Standards and Practices Statement
 
-*Section 3: Requirements*
+**Section 3: Requirements**
 
 - 3.1 User Requirements 
 
