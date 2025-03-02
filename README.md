@@ -40,6 +40,15 @@
 
 **Section 4: Design**
 
+-4.1 []()
+
+--4.2 []()
+
+-4.3 []()
+
+-4.4 []()
+
+
 ### Contents
 - [Design](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Design/Design.md)
 <hr>
