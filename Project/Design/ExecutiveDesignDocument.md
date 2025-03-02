@@ -16,8 +16,7 @@ The game will have several classes representing different objects in our game: P
 - Name: locations_dictionary
 - Type: dictionary 
 - Description: holds all locations and descriptions as key-value pair
-
-
+<br><br>
 - Name: game_running
 - Type: Boolean
 - Description: tracks whether game is still running
