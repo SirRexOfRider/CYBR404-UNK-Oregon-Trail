@@ -44,7 +44,7 @@
 
 - 4.2 [Design Diagrams](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Design/DataFlowDiagrams.md)
 
-- 4.3 [UML Diagrams](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Design/UMLDiagrams.md)
+- 4.3 [Secuirty Design Statement](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Design/UMLDiagrams.md)
 
 - 4.4 []()
 
