@@ -46,10 +46,4 @@
 
 - 4.3 [Secuirty Design Statement](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Design/UMLDiagrams.md)
 
-- 4.4 []()
-
-
-### Contents
-- [Design](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Design/Design.md)
-<hr>
 
