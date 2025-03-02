@@ -3,13 +3,13 @@
 
 # 4.1 Executive Design Statement
 
-### 4.1.1 Components
+## 4.1.1 Components
 
 Our project will utilize a double while loop structure that tracks whether the game is running, as well as whether the player is still alive. 
 
 The game will have several classes representing different objects in our game: Player, Weapons, Enemies, Events, and Locations. Additionally, the main.py of our program will have several variables and helper functions of its own to complete the program. Specifically:
 
-#### main.py
+### main.py
 
 **Data attributes:**
 
@@ -39,11 +39,11 @@ The game will have several classes representing different objects in our game: P
 
 - Other additional helpers needed as found through implementation and testing
 
-### 4.1.2 Entities
+## 4.1.2 Entities
 
 We will have only one entity in our project. Namely, the sole entity in our project will be the player(s) of our game. 
 
-### 4.1.3 Processes and Data Flows
+## 4.1.3 Processes and Data Flows
 
 Our project has many interconnected processes (P) and data flows (DF). In our project, the user entity _starts the game_ (DF) and prompts the _game initializer_ (P). Input from the user _is validated_ (DF) through the _input validator_ (P), with the _input being compared_ (DF) to the allowable data in the data store _input data_. The _input data_ store then _returns_ (DF), connecting all inputted data and the _input validator_ (P) back to the _game initializer_ (P). 
 
@@ -55,7 +55,7 @@ _Location choice_ (P) is connected to the data store _location data_ by data flo
 
 The _random D20 event data_ process connects to _roll D20_ (P) by _tells dice to roll_ (DF) and _return roll_ (DF), as well as _event data_ (P) by _determines random event_ (DF). The _event data_ process connects to two data stores: _weapon data_ by data flows _get_ and _returns_, and _enemy data_ by data flows _get_ and _returns_. The process _event data_ also _loops back_ (DF) to process _game controller_.
 
-**4.1.4 Data Stores**
+## 4.1.4 Data Stores
 
 We will have several data stores in our project. Specifically, we will have: an inventory list, a weapons dictionary, an enemies dictionary, a locations dictionary, a location history list, an input data list, weapons .txt file, enemies .txt file, and a locations .txt file. 
 
@@ -99,11 +99,11 @@ The data stores will be formatted as follows:
 - Type: .txt file
 - Description: holds data to be loaded into locations dictionary 
 
-### 4.1.5 Classes
+## 4.1.5 Classes
 
 Classes will be made for the Player, Weapons, Enemies, Events, and Locations. All the classes, their data attributes, and predicted helper functions are outlined below: 
 
-#### Player 
+### Player 
 
 **Data attributes:**
 
@@ -141,7 +141,7 @@ Classes will be made for the Player, Weapons, Enemies, Events, and Locations. Al
 - Name: add_location_to_history()
 - Adds a location that’s been visited to the location history list 
 
-#### Locations
+### Locations
 - Data attributes:
   --> Name: location_name
     --> Type: int
@@ -150,7 +150,7 @@ Classes will be made for the Player, Weapons, Enemies, Events, and Locations. Al
     --> Type: str
     --> Description: gives a description to the user of the location where they’re currently at
   
-#### Events
+### Events
 
 **Data attributes:**
   
@@ -177,7 +177,7 @@ Classes will be made for the Player, Weapons, Enemies, Events, and Locations. Al
 - Methods for random events
 - Takes in player 
 
-#### Enemies 
+### Enemies 
 
 **Data attributes:**
 
@@ -197,7 +197,7 @@ Classes will be made for the Player, Weapons, Enemies, Events, and Locations. Al
 - Type: str
 - Description: gives description of enemy 
 
-#### Weapons 
+### Weapons 
 
 **Data attributes:**
 
@@ -213,7 +213,7 @@ Classes will be made for the Player, Weapons, Enemies, Events, and Locations. Al
 - Type: str
 - Description: gives decription of weapon
 
-### 4.1.6 Objects
+## 4.1.6 Objects
 
 There will be one object created of the Player class to represent the user, with the Player being recreated if the player dies and starts the game over.
 
@@ -225,11 +225,11 @@ There will be four objects created from the Locations class each gameplay. The l
 
 The Event class will run depending on whether or not an event is running. Instances of the Event class will be created accordingly as needed.
 
-### 4.1.7 Data Formats
+## 4.1.7 Data Formats
 
 Our project will utilize several different data formats, namely string, integer, and .txt files. 
 
-### 4.1.8 User interactions
+## 4.1.8 User interactions
 
 The user will be able to interact with the program on Python IDE PyCharm’s command line after the program has started to run. Menu choices will be given to the user so that they can navigate the game, with instructions displayed to help the user understand what each choice will entail. 
 
