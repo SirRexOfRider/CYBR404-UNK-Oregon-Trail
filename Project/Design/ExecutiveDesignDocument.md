@@ -3,38 +3,47 @@
 
 # 4.1 Executive Design Statement
 
-**4.1.1 Components**
+### 4.1.1 Components
 
 Our project will utilize a double while loop structure that tracks whether the game is running, as well as whether the player is still alive. 
 
 The game will have several classes representing different objects in our game: Player, Weapons, Enemies, Events, and Locations. Additionally, the main.py of our program will have several variables and helper functions of its own to complete the program. Specifically:
 
-### main.py
--	Data attributes: 
-  -->	Name: locations_dictionary
-    --> Type: dictionary 
-    --> Description: holds all locations and descriptions as key-value pair
-  -->	Name: game_running
-    --> Type: Boolean
-    --> Description: tracks whether game is still running
-  --> Name: player_alive
- 	  --> Type: Boolean
- 	  --> Description: tracks whether player is still alive or not 
-  --> Name: current_location
- 	  --> Type: str
-    --> Description: tracks where player currently is in the game
-- Helpers: 
-  --> Name: calculate_next_location()
-    --> Description: gets information to display to user next available locations based on current location 
-  --> Name: game_over()
-    --> Description: gives player information about what happens once the game is over and how to start a replay, if desired ‘
-  --> Other additional helpers needed as found through implementation and testing
+#### main.py
 
-**4.1.2 Entities **
+**Data attributes:**
+
+- Name: locations_dictionary
+- Type: dictionary 
+- Description: holds all locations and descriptions as key-value pair
+
+- Name: game_running
+- Type: Boolean
+- Description: tracks whether game is still running
+
+- Name: player_alive
+- Type: Boolean
+- Description: tracks whether player is still alive or not 
+
+- Name: current_location
+- Type: str
+- Description: tracks where player currently is in the game
+
+**Helpers:** 
+
+- Name: calculate_next_location()
+- Description: gets information to display to user next available locations based on current location 
+
+- Name: game_over()
+- Description: gives player information about what happens once the game is over and how to start a replay, if desired
+
+- Other additional helpers needed as found through implementation and testing
+
+### 4.1.2 Entities
 
 We will have only one entity in our project. Namely, the sole entity in our project will be the player(s) of our game. 
 
-**4.1.3 Processes and Data Flows **
+### 4.1.3 Processes and Data Flows
 
 Our project has many interconnected processes (P) and data flows (DF). In our project, the user entity _starts the game_ (DF) and prompts the _game initializer_ (P). Input from the user _is validated_ (DF) through the _input validator_ (P), with the _input being compared_ (DF) to the allowable data in the data store _input data_. The _input data_ store then _returns_ (DF), connecting all inputted data and the _input validator_ (P) back to the _game initializer_ (P). 
 
@@ -55,65 +64,84 @@ The inventory list will store weapon objects that the user picks up in gameplay 
 The data stores will be formatted as follows:
 
 - Name: inventory
-  --> Type: list
-  -- > Description: tracks what the player has collected in their inventory
+- Type: list
+- Description: tracks what the player has collected in their inventory
+  
 - Name: weapons_dictionary
-  --> Type: dictionary
-  --> Description: dictionary holding all weapons
-- Name: enemies_dictionary
-  --> Type: dictionary 
-  --> Description: dictionary holding all enemies
-- Name: locations_dictionary
-  --> Type: dictionary
-  --> Description: dictionary holding all location data 
-- Name: location_history
-  --> Type: list
-  --> Description: keeps track of where the player has been
-- Name: input_data
-  --> Type: list
-  --> Description: holds all allowable user inputs to compare user input against 
-- Name: weapons.txt
-  --> Type: .txt file
-  --> Description: holds data to be loaded into weapons dictionary 
-- Name: enemies.txt
-  --> Type: .txt file
-  --> Description: holds data to be loaded into enemies dictionary 
-- Name: locations.txt
-  --> Type: .txt file
-  --> Description: holds data to be loaded into locations dictionary 
+- Type: dictionary
+- Description: dictionary holding all weapons
 
-**4.1.5 Classes**
+- Name: enemies_dictionary
+- Type: dictionary 
+- Description: dictionary holding all enemies
+  
+- Name: locations_dictionary
+- Type: dictionary
+- Description: dictionary holding all location data
+  
+- Name: location_history
+- Type: list
+- Description: keeps track of where the player has been
+  
+- Name: input_data
+- Type: list
+- Description: holds all allowable user inputs to compare user input against
+  
+- Name: weapons.txt
+- Type: .txt file
+- Description: holds data to be loaded into weapons dictionary
+  
+- Name: enemies.txt
+- Type: .txt file
+- Description: holds data to be loaded into enemies dictionary
+  
+- Name: locations.txt
+- Type: .txt file
+- Description: holds data to be loaded into locations dictionary 
+
+### 4.1.5 Classes
 
 Classes will be made for the Player, Weapons, Enemies, Events, and Locations. All the classes, their data attributes, and predicted helper functions are outlined below: 
 
-### Player 
-- Data attributes:
-  --> Name: health
-    --> Type: int
-    --> Description: tracks player’s health to know if the player is dead or not
-  --> Name: equipped_weapon
-    --> Type: object
-    --> Description: tracks what weapon the user has equipped
-  --> Name: location_num
-    --> Type: int
-    --> Description: tracks how many locations the player has visited 
-  --> Name: inventory
-    --> Type: list
-    --> Description: tracks what the player has collected in their inventory
-  --> Name: location_history
-    --> Type: list
-    --> Description: keeps track of where the player has been
-- Helpers:
-  --> Name: attack()
-    --> Returns an int for damage
-  --> Name: display_inventory()
-    --> Returns list showing the player’s inventory
-  --> Name: change_weapon()
-    --> Allows the user to change out their weapon and swap items in and out of inventory
-  --> Name: add_location_to_history()
-    --> Adds a location that’s been visited to the location history list 
+#### Player 
 
-### Locations
+**Data attributes:**
+
+- Name: health
+- Type: int
+- Description: tracks player’s health to know if the player is dead or not
+
+- Name: equipped_weapon
+- Type: object
+- Description: tracks what weapon the user has equipped
+
+- Name: location_num
+- Type: int
+- Description: tracks how many locations the player has visited 
+
+- Name: inventory
+- Type: list
+- Description: tracks what the player has collected in their inventory
+
+- Name: location_history
+- Type: list
+- Description: keeps track of where the player has been
+
+**Helpers:**
+
+- Name: attack()
+- Returns an int for damage
+
+- Name: display_inventory()
+- Returns list showing the player’s inventory
+
+- Name: change_weapon()
+- Allows the user to change out their weapon and swap items in and out of inventory
+
+- Name: add_location_to_history()
+- Adds a location that’s been visited to the location history list 
+
+#### Locations
 - Data attributes:
   --> Name: location_name
     --> Type: int
@@ -122,53 +150,70 @@ Classes will be made for the Player, Weapons, Enemies, Events, and Locations. Al
     --> Type: str
     --> Description: gives a description to the user of the location where they’re currently at
   
-### Events
-- Data attributes:
-  --> Name: weapons_dictionary
-    --> Type: dictionary
-    --> Description: dictionary holding all weapons
-  --> Name: enemies_dictionary
-    --> Type: dictionary 
-    --> Description: dictionary holding all enemies
-  --> Name: event_running
-    --> Type: Boolean
-    --> Description: check if event is running or not 
-- Helpers:
-  --> Name: roll_D20()
-    --> Returns int using Random module for use in random choice generation for events 
-  --> Methods for events at set locations
-    --> Takes in player
-  --> Methods for random events
-    --> Takes in player 
+#### Events
+
+**Data attributes:**
+  
+- Name: weapons_dictionary
+- Type: dictionary
+- Description: dictionary holding all weapons
+
+- Name: enemies_dictionary
+- Type: dictionary 
+- Description: dictionary holding all enemies
+
+- Name: event_running
+- Type: Boolean
+- Description: check if event is running or not
+  
+**Helpers:**
+
+- Name: roll_D20()
+- Returns int using Random module for use in random choice generation for events 
+
+- Methods for events at set locations
+- Takes in player
+
+- Methods for random events
+- Takes in player 
 
 #### Enemies 
-- Data attributes:
-  --> Name
-    --> Type: str
-    --> Description: holds name of enemy
-  --> Health
-    --> Type: int
-    --> Description: tracks enemy health
-  --> Damage
-    --> Type: int
-    --> Description: tracks enemy damage 
-  --> Description 
-    --> Type: str
-    --> Description: gives description of enemy 
 
-### Weapons 
-- Data attributes:
-  --> weapon_name
-    --> Type: str
-    --> Description: holds name of weapon
-  --> weapon_damage 
-    --> Type: int
-    --> Description: holds weapon damage amount
-  --> weapon_description
-    --> Type: str
-    --> Description: gives decription of weapon
+**Data attributes:**
 
-**4.1.6 Objects**
+- Name: name
+- Type: str
+- Description: holds name of enemy
+
+- Name: health
+- Type: int
+- Description: tracks enemy health
+
+- Name: damage
+- Type: int
+- Description: tracks enemy damage 
+
+- Name: description 
+- Type: str
+- Description: gives description of enemy 
+
+#### Weapons 
+
+**Data attributes:**
+
+- Name: weapon_name
+- Type: str
+- Description: holds name of weapon
+
+- Name: weapon_damage 
+- Type: int
+- Description: holds weapon damage amount
+
+- Name: weapon_description
+- Type: str
+- Description: gives decription of weapon
+
+### 4.1.6 Objects
 
 There will be one object created of the Player class to represent the user, with the Player being recreated if the player dies and starts the game over.
 
@@ -180,11 +225,11 @@ There will be four objects created from the Locations class each gameplay. The l
 
 The Event class will run depending on whether or not an event is running. Instances of the Event class will be created accordingly as needed.
 
-**4.1.7 Data Formats**
+### 4.1.7 Data Formats
 
 Our project will utilize several different data formats, namely string, integer, and .txt files. 
 
-**4.1.8 User interactions**
+### 4.1.8 User interactions
 
 The user will be able to interact with the program on Python IDE PyCharm’s command line after the program has started to run. Menu choices will be given to the user so that they can navigate the game, with instructions displayed to help the user understand what each choice will entail. 
 
