@@ -40,7 +40,7 @@
 
 **Section 4: Design**
 
--4.1 []()
+-4.1 [Execuitve Design Summary](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/edit/main/Project/Design/ExecutiveDesignDocument.md)
 
 --4.2 []()
 
