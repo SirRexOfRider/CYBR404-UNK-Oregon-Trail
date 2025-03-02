@@ -40,10 +40,10 @@
 
 **Section 4: Design**
 
-- 4.1 [Execuitve Design Summary](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/edit/main/Project/Design/ExecutiveDesignDocument.md)
+- 4.1 [Executive Design Summary](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/edit/main/Project/Design/ExecutiveDesignDocument.md)
 
 - 4.2 [Design Diagrams](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Design/DataFlowDiagrams.md)
 
-- 4.3 [Secuirty Design Statement](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Design/UMLDiagrams.md)
+- 4.3 [Security Design Statement](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Design/UMLDiagrams.md)
 
 
