@@ -17,13 +17,16 @@ The game will have several classes representing different objects in our game: P
 - Type: dictionary 
 - Description: holds all locations and descriptions as key-value pair
 
+
 - Name: game_running
 - Type: Boolean
 - Description: tracks whether game is still running
 
+
 - Name: player_alive
 - Type: Boolean
 - Description: tracks whether player is still alive or not 
+
 
 - Name: current_location
 - Type: str
@@ -34,8 +37,10 @@ The game will have several classes representing different objects in our game: P
 - Name: calculate_next_location()
 - Description: gets information to display to user next available locations based on current location 
 
+
 - Name: game_over()
 - Description: gives player information about what happens once the game is over and how to start a replay, if desired
+
 
 - Other additional helpers needed as found through implementation and testing
 
@@ -66,34 +71,42 @@ The data stores will be formatted as follows:
 - Name: inventory
 - Type: list
 - Description: tracks what the player has collected in their inventory
+
   
 - Name: weapons_dictionary
 - Type: dictionary
 - Description: dictionary holding all weapons
 
+
 - Name: enemies_dictionary
 - Type: dictionary 
 - Description: dictionary holding all enemies
+
   
 - Name: locations_dictionary
 - Type: dictionary
 - Description: dictionary holding all location data
+
   
 - Name: location_history
 - Type: list
 - Description: keeps track of where the player has been
+
   
 - Name: input_data
 - Type: list
 - Description: holds all allowable user inputs to compare user input against
+
   
 - Name: weapons.txt
 - Type: .txt file
 - Description: holds data to be loaded into weapons dictionary
+
   
 - Name: enemies.txt
 - Type: .txt file
 - Description: holds data to be loaded into enemies dictionary
+
   
 - Name: locations.txt
 - Type: .txt file
@@ -111,17 +124,21 @@ Classes will be made for the Player, Weapons, Enemies, Events, and Locations. Al
 - Type: int
 - Description: tracks player’s health to know if the player is dead or not
 
+
 - Name: equipped_weapon
 - Type: object
 - Description: tracks what weapon the user has equipped
+
 
 - Name: location_num
 - Type: int
 - Description: tracks how many locations the player has visited 
 
+
 - Name: inventory
 - Type: list
 - Description: tracks what the player has collected in their inventory
+
 
 - Name: location_history
 - Type: list
@@ -132,23 +149,30 @@ Classes will be made for the Player, Weapons, Enemies, Events, and Locations. Al
 - Name: attack()
 - Returns an int for damage
 
+
 - Name: display_inventory()
 - Returns list showing the player’s inventory
 
+
 - Name: change_weapon()
 - Allows the user to change out their weapon and swap items in and out of inventory
+
 
 - Name: add_location_to_history()
 - Adds a location that’s been visited to the location history list 
 
 ### Locations
-- Data attributes:
-  --> Name: location_name
-    --> Type: int
-    --> Description: assigns number to location
-  --> Name: location_description
-    --> Type: str
-    --> Description: gives a description to the user of the location where they’re currently at
+
+**Data attributes:**
+
+- Name: location_name
+- Type: int
+- Description: assigns number to location
+
+
+- Name: location_description
+- Type: str
+- Description: gives a description to the user of the location where they’re currently at
   
 ### Events
 
@@ -158,9 +182,11 @@ Classes will be made for the Player, Weapons, Enemies, Events, and Locations. Al
 - Type: dictionary
 - Description: dictionary holding all weapons
 
+
 - Name: enemies_dictionary
 - Type: dictionary 
 - Description: dictionary holding all enemies
+
 
 - Name: event_running
 - Type: Boolean
@@ -171,8 +197,10 @@ Classes will be made for the Player, Weapons, Enemies, Events, and Locations. Al
 - Name: roll_D20()
 - Returns int using Random module for use in random choice generation for events 
 
+
 - Methods for events at set locations
 - Takes in player
+
 
 - Methods for random events
 - Takes in player 
@@ -185,13 +213,16 @@ Classes will be made for the Player, Weapons, Enemies, Events, and Locations. Al
 - Type: str
 - Description: holds name of enemy
 
+
 - Name: health
 - Type: int
 - Description: tracks enemy health
 
+
 - Name: damage
 - Type: int
 - Description: tracks enemy damage 
+
 
 - Name: description 
 - Type: str
@@ -205,9 +236,11 @@ Classes will be made for the Player, Weapons, Enemies, Events, and Locations. Al
 - Type: str
 - Description: holds name of weapon
 
+
 - Name: weapon_damage 
 - Type: int
 - Description: holds weapon damage amount
+
 
 - Name: weapon_description
 - Type: str
