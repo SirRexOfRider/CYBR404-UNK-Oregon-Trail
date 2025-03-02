@@ -42,9 +42,9 @@
 
 - 4.1 [Execuitve Design Summary](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/edit/main/Project/Design/ExecutiveDesignDocument.md)
 
-- 4.2 [Data Flow Diagrams]()
+- 4.2 [Data Flow Diagrams](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Design/DataFlowDiagrams.md)
 
-- 4.3 []()
+- 4.3 [UML Diagrams]()
 
 - 4.4 []()
 
