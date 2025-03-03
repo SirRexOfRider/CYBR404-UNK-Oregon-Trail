@@ -14,7 +14,7 @@ class Weapons:
     __weapon_description = None
 
     # Init.
-    def __init__(self, name, damage, description):
+    def __init__(self, name=None, damage=None, description=None):
         self.set_weapon_name(name)
         self.set_weapon_damage(damage)
         self.set_weapon_description(description)
