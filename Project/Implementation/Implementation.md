@@ -28,10 +28,7 @@
 - Completed class – 3/2/25
 
 ## Events Class – Braxton Rider 
-
-- Created Events class – 3/2/25
-- Set up class (attributes, init, helpers, getterse, setters, to string) – 3/2/25
-- Completed class – 3/2/25
+- In progress
 
 ## Main/driver – all 
 - In progress – 3/2/25 
