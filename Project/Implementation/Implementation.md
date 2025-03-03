@@ -28,7 +28,7 @@
 - Completed class – 3/2/25
 
 ## Events Class – Braxton Rider 
-- In progress
+- In progress - 3/2/25
 
 ## Main/driver – all 
 - In progress – 3/2/25 
