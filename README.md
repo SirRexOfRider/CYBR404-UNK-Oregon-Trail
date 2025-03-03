@@ -48,7 +48,7 @@
 
 **Section 5: Implementation**
 
-- [Code Directory](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/tree/main/Project/Implementation)
+- [Code Directory](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/tree/main/Project/Code)
 
 - 5.1 [Implementation Progress Outline](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Implementation/Implementation.md)
 
