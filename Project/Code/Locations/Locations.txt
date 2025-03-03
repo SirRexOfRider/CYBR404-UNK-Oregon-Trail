@@ -1,0 +1,6 @@
+Discovery_Hall, You are at Discovery Hall Room 206 - it is surprisingly nice.
+The Graze, You are at The Graze - it smells like delicious rattail soup.
+The Union, You are at the Union - the CHick-fil-a line is beyond this realm.
+Health_And_Sports_center, You are at the Health and Sports Center - there jocks everywhere.
+Memorial_Student_Affairs_Building, You are at the Memorial Student Affairs Building - they need help with FASFA.
+Warner_Hall, You are at Warner Hall - it smells like dust, and you see dust-bunnies scurrying across the floor.
