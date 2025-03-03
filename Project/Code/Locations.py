@@ -1,6 +1,6 @@
 class Locations:
 
-    __location_name = int
+    __location_name = None
     __location_description = []
 
     #init
