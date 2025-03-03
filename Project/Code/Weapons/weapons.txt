@@ -1,0 +1,5 @@
+sword, 30, A magnificent two-handed sword.
+Calculus textbook, 10, A textbook for Calculus I.
+baguette, 15, A very sturdy piece of bread.
+stinky sneaker, 5, A less-than-savory appendage cover.
+gun, 100, A Desert Eagle pistol.
