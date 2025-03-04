@@ -33,6 +33,7 @@ class Events:
         temp_list = []
 
         #Open weapons file
+        #Might need to include "Project" in front of this file. We can adjust when we start making main
         with open("Code/Weapons/weapons.txt", "r") as file:
             for line in file:
                 temp_list.append(line)
