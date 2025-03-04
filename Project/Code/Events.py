@@ -346,6 +346,9 @@ class Events:
             #Check if either player or dragon is dead
             if player.get_health() <= 0 or self.get_enemies_dictionary()[1].get_hp() <= 0:
                 self.set_event_running(False)
+            
+        
+        temp+= "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         
         #Return player after event is done (either dead or alive)
         return player
