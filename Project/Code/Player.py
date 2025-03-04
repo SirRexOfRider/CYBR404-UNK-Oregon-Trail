@@ -34,7 +34,7 @@ class Player:
     #Change weapon from inventory
     def change_weapon(self, choice = int):
         #Swap currently equiped weapon and one from inventory
-        self.set_inventory(self.get_inventory().append(self.get_equiped_weapon()))
+        self.get_inventory().append(self.get_equiped_weapon())
         self.set_equiped_weapon(self.get_inventory().pop(choice - 1))
         
     #Add location name to location history list
