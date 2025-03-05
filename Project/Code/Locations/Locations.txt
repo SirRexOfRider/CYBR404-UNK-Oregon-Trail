@@ -1,8 +1,8 @@
-Archway, You are at the Archway - it is a sweet Arch on the interstate
-Discovery_Hall, You are at Discovery Hall - it is surprisingly nice.
+Archway, You are at the Archway - it is a sweet Archway yo
+Warner Hall, You are at Warner Hall - it smells like dust, and you see dust-bunnies scurrying across the floor.
 The Graze, You are at The Graze - it smells like delicious rattail soup.
+Memorial Student Affairs Building, You are at the Memorial Student Affairs Building - they need help with FASFA.
 The Union, You are at the Union - the Chick-fil-a line is beyond this realm.
-Health_And_Sports_center, You are at the Health and Sports Center - there are jocks everywhere.
-Memorial_Student_Affairs_Building, You are at the Memorial Student Affairs Building - they need help with FASFA.
-Warner_Hall, You are at Warner Hall - it smells like dust, and you see dust-bunnies scurrying across the floor.
-Discovery Hall Room 206, You are at Discovery Hall Room 206 - Adam needs your help
+Health and Sports Center, You are at the Health and Sports Center - there are jocks everywhere.
+Discovery Hall, You are at Discovery Hall - it is surprisingly nice.
+Discovery Hall Room 206, You are at Discovery Hall Room 206 - Adam needs your help.
