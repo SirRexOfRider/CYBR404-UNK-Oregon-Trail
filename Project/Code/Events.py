@@ -335,6 +335,7 @@ class Events:
             temp += "------------------------------------------------------------"
             
             temp += "DRAGON ATTACK: #############################################"
+            roll = self.roll_D20()    
             if roll >= 10:
                 temp += "\n The dragon attack the you and it does damage!"
                 player.set_health(player.get_health() - self.get_enemies_dictionary()[1].get_atk())
