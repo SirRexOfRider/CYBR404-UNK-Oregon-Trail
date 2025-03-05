@@ -1,9 +1,14 @@
-from Locations import Locations
+from Locations.Locations import Locations
+
+while_running = True
+while_player_alive = True
+__locations_dictionary = {}
+
 
 def main():
     
     # Call functions to read in file data, create objects, and print out new objects.
-    locations_list = read_file("Locations.txt", Locations)
+    locations_list = read_file("Project/Code/Locations/Locations.txt", Locations)
     print_objects(locations_list)
 
 # Create function to read in data from file to create objects.
@@ -19,6 +24,10 @@ def read_file(file, class_name):
 def print_objects(object_list):
     for object in object_list:
         print(object)
+        
+
+        
+    
 
 if __name__ == '__main__':
     main()
