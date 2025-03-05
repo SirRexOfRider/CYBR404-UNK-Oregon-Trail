@@ -1,43 +1,24 @@
 from Locations import Locations
 
-
 def main():
-    __Locations_dictionary = {}
+    
+    # Call functions to read in file data, create objects, and print out new objects.
+    locations_list = read_file("Locations.txt", Locations)
+    print_objects(locations_list)
 
-def make_locations_dictionary():
-    temp_list = []
-    with open("Project/Code/Locations/Locations.txt", "r") as file:
-        for line in file:
-            temp_list.append(line)
-        file.close()
+# Create function to read in data from file to create objects.
+def read_file(file, class_name):
+    object_list = []
+    with open(file, "r") as f:
+        for line in f:
+            c1 = class_name(line.split(",")[0].strip(), line.split(",")[1].strip())
+            object_list.append(c1)
+    return object_list
 
-    for i in range(0, len(temp_list)):
-
-        # Find the indexes of each comma (where different DA's are)
-        index = temp_list[i].find(",")
-        second_index = temp_list[i].find(",", index + 1)
-
-        # Determine which object to create based off what number i is on (what line of the file we're on)
-        if i == 0:
-            Archway = Locations(temp_list[i][: index], int(temp_list[i][index + 1: second_index]))
-        elif i == 1:
-            Discovery_Hall = Locations(temp_list[i][: index], int(temp_list[i][index + 1: second_index]))
-        elif i == 2:
-            The_Graze = Locations(temp_list[i][: index], int(temp_list[i][index + 1: second_index]))
-        elif i == 3:
-            The_Union = Locations(temp_list[i][: index], int(temp_list[i][index + 1: second_index]))
-        elif i == 4:
-            Health_And_Sports_Center = Locations(temp_list[i][: index], int(temp_list[i][index + 1: second_index]))
-        elif i == 5:
-            Memormial_Student_Affairs_Building = Locations(temp_list[i][: index], int(temp_list[i][index + 1: second_index]))
-        elif i == 6:
-            Warner_Hall = Locations(temp_list[i][: index], int(temp_list[i][index + 1: second_index]))
-        elif i == 7:
-            Discovery_Hall_Room_206 = Locations(temp_list[i][: index], int(temp_list[i][index + 1: second_index]))
-
-        # Put objects into a dictionary
-        temp_dictionary = {0: Archway, 1: Discovery_Hall, 2: The_Graze, 3: The_Union, 4: Health_And_Sports_Center, 5: Memormial_Student_Affairs_Building, 6:Warner_Hall, 7: Discovery_Hall_Room_206}
-
+# Create function to print out objects from object list.
+def print_objects(object_list):
+    for object in object_list:
+        print(object)
 
 if __name__ == '__main__':
     main()
