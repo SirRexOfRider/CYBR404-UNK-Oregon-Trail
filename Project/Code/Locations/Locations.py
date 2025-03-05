@@ -28,4 +28,4 @@ class Locations:
 
     #tostring
     def __str__(self):
-        return "You are at " + str(self.get_location_name()) + str(self.get_location_description())
+        return " " + str(self.get_location_name()) + " " + str(self.get_location_description())
