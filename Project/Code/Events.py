@@ -313,9 +313,9 @@ class Events:
         temp += "A dragon has captured adam and is holding him hostage! You're the only one that can save him. You approach the dragon ready to slay it! \n"
         
         #Not quite sure if this bit will work but we'll try it
-        temp += str(self.get_enemies_dictionary()[1])
+        temp += str(self.get_enemies_dictionary()[1].get_description())
         
-        temp+= "\n~~~~~~~~~~~~~~~~~~~~~~~~~~COMBAT LOG~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        temp+= "\n~~~~~~~~~~~~~~~~~~~~~~~~~~COMBAT LOG~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"
         
         
         #This event is gonna be a little different. It's basically going to go until either dragon health hits zero or player does.
@@ -326,38 +326,42 @@ class Events:
             
             
            
-            temp += "PLAYER ATTACK: ----------------------------------------------"
+            temp += "PLAYER ATTACK: ----------------------------------------------\n"
             
             #Player attack
             roll = self.roll_D20() 
              
             if roll >= 10:
-                temp += "\n You attack the dragon and it does damage!"
-                self.get_enemies_dictionary()[1].set_hp(self.get_enemies_dictionary()[1].get_hp() - player.attack())
+                
+                self.get_enemies_dictionary()[1].set_hp(int(self.get_enemies_dictionary()[1].get_hp()) - player.attack())
+                temp += "\nYou attack the dragon and it does damage! -" + str(player.attack())
+                temp += "\nDragon health: " + str(self.get_enemies_dictionary()[1].get_hp())
             else:
                 temp += "\nYour attack misses!"
             
-            temp += "------------------------------------------------------------"
+            temp += "\n------------------------------------------------------------\n"
             
-            temp += "DRAGON ATTACK: #############################################"
+            temp += "DRAGON ATTACK: #############################################\n"
             
             #Roll dragon attack
             roll = self.roll_D20()    
             
             if roll >= 10:
-                temp += "\n The dragon attack the you and it does damage!"
-                player.set_health(player.get_health() - self.get_enemies_dictionary()[1].get_atk())
+                
+                player.set_health(int(player.get_health()) - int(self.get_enemies_dictionary()[1].get_atk()))
+                temp += "\nThe dragon attack the you and it does damage! -" + str(self.get_enemies_dictionary()[1].get_atk())
+                temp += "\nPlayer health: " + str(player.get_health())
             else:
                 temp += "\nThe Dragon's attack misses!"
             
-            temp += "############################################################"
+            temp += "\n############################################################\n\n"
             
             #Check if either player or dragon is dead
             if player.get_health() <= 0 or self.get_enemies_dictionary()[1].get_hp() <= 0:
                 self.set_event_running(False)
             
         
-        temp += "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        temp += "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"
         print(temp)
         
         #Return player after event is done (either dead or alive)

@@ -4,10 +4,10 @@ class enemy:
     _name = "Chaddragon"
     _description = "You have found the dastardly beast that has kidnapped your Professor!\n Its Sigma shiny scales cover it’s large CHAD body to give it 100 HP.\n Its claws are made of rizz to give it an ATK power of 30.\n\n Defeat the beast known as the Chaddragon to save your Professor!"
 
-    def __init__(self, atk, hp, name, description):
-        self._atk = atk
-        self._hp = hp
+    def __init__(self, name, attack, hp, description):
         self._name = name
+        self._atk = attack
+        self._hp = hp
         self._description = description
 
     def get_atk(self):

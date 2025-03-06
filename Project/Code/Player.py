@@ -19,7 +19,7 @@ class Player:
     #Helpers
     def attack(self):
         #Get the weapon object and the weapon damage attribute
-        return self.equiped_weapon.get_weapon_damage()
+        return self.get_equiped_weapon().get_weapon_damage()
     
     #Display inventory
     def display_inventory(self):

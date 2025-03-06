@@ -18,7 +18,7 @@ def main():
     
     
     
-    
+    #While game is running
     while running:
         temp = ""
         temp += "-----------------------------------------------------------------------------------------\n"
@@ -31,8 +31,8 @@ def main():
         player = Player(100, events.begin_journey(), 0, [], [])
         
         
-        
-        while player_alive:
+        #While player is alive
+        while calc_game_over(player):
             
             temp = ""
             temp +="~~~~~~ OPTIONS ~~~~~~~~~\n"
@@ -120,36 +120,27 @@ def main():
                                 player.get_location_history().append(__locations_dictionary[ui3].get_location_name())
                                 #Change current location number
                                 player.set_location_num(ui3)
-                                
                                 #Print location data
                                 print(__locations_dictionary[ui3])
                                 
                                 #Calculate event that happens at that location. Bring in player so events can change it
                                 calc_event(ui3, player)
-                                calc_game_over(player)
                                 
-                            
+                                
                             #ERRORRRRRRR
                             else:
-                                print("Error, not an avaialbe location!")
+                                print("Error, not an avaiable location!")
                                 continue
                         
                         #Except anything else. While loop continues
                         except Exception as e:
                             print(e)
-                                
-                        
-                    
-                        
-                            
+                                  
                 #If user input is not in accepted inputs [1-4]
                 else:
                     print("Please enter number [1-4]")
                     continue
-                
-
-                
-                
+        
             #Catch bad input (naughty naughty!!!)    
             except Exception as e:
                 print(e)
@@ -205,7 +196,7 @@ def calc_game_over(player):
     player_alive = True
     
     #If player dies before getting to the dragon fight
-    if player.get_health() <= 0 and player.get_location() != 7:
+    if player.get_health() <= 0 and player.get_location_num() != 7:
         temp += "+---------------------------+\n"
         temp += "|      G A M E  O V E R     |\n"
         temp += "+---------------------------+\n"
@@ -214,28 +205,28 @@ def calc_game_over(player):
         player_alive = False
         
     #If player dies at dragon fight
-    if player.get_health() <= 0 and player.get_location() == 7:
+    elif player.get_health() <= 0 and player.get_location_num() == 7:
         temp += "+---------------------------+\n"
         temp += "|      G A M E  O V E R     |\n"
         temp += "+---------------------------+\n"
         
         temp += "You were eeviscerated by the dragon! It's mog-maxxing was too much!!!\n"
-        player_alvie = False
+        player_alive = False
         
     #If player wins!!!
-    if player.get_health() <= 0 and player.get_location() == 7:
+    elif player.get_health() >= 1 and player.get_location_num() == 7:
         temp += "+---------------------------+\n"
         temp += "|      Y O U  W I N ! !     |\n"
         temp += "+---------------------------+\n"
         
         temp += "You absolutely demolished that dragon! Adam is very pleased with you and will probably give you extra credit.... right?...\n"
-        temp += ("PLAYER STATS: \n" + player)
+        temp += ("PLAYER STATS: \n" + str(player))
         
         #Technically no, the player doesn't die but this breaks the loop for the main game
         #"I've won, but at what cost? haha"
         player_alive = False
         
-        print(temp)
+    print(temp)
         
     return player_alive
         
