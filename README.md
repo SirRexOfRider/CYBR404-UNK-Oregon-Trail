@@ -55,7 +55,7 @@
 **Section 6: Testing**
 - 6.1 [Code and Security Testing Overview](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Testing/CSTO.md)
   
-- 6.2 [Code and Security Testing Plan]()
+- 6.2 [Code and Security Testing Plan](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Testing/CSTP.md)
   
 - 6.3 [Code and Security Testing Results]()
 
