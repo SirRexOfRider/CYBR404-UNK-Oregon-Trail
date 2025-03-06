@@ -87,7 +87,7 @@ class Events:
             
             #Determine which object to create based off what number i is on (what line of the file we're on)
             if i == 0:
-                dragon = enemy(int(temp_list[i][: index]), int(temp_list[i][index+1 :second_index]), temp_list[i][second_index + 1 : third_index], temp_list[i][third_index + 1::])
+                dragon = enemy((temp_list[i][: index]), int(temp_list[i][index+1 :second_index]), int(temp_list[i][second_index + 1 : third_index]), temp_list[i][third_index + 1::])
         
         #Put objects into a dictionary
         temp_dictionary = {1 : dragon}
@@ -270,6 +270,9 @@ class Events:
         else:
             temp += "You walk up the stairs and approach Adam's classroom\n"
             
+        print(temp)
+        return player
+            
     def warner_hall(self, player):
         #Concatenate string to print based on what happens
         temp = "\n"
@@ -310,7 +313,7 @@ class Events:
         temp += "A dragon has captured adam and is holding him hostage! You're the only one that can save him. You approach the dragon ready to slay it! \n"
         
         #Not quite sure if this bit will work but we'll try it
-        temp += self.get_enemies_dictionary()[1]
+        temp += str(self.get_enemies_dictionary()[1])
         
         temp+= "\n~~~~~~~~~~~~~~~~~~~~~~~~~~COMBAT LOG~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         
@@ -320,12 +323,14 @@ class Events:
         
         while (self.get_event_running()):
             
-            #SPPIIINN THE WHEEEELLLL
-            roll = self.roll_D20()
             
-            #Player attack
+            
+           
             temp += "PLAYER ATTACK: ----------------------------------------------"
             
+            #Player attack
+            roll = self.roll_D20() 
+             
             if roll >= 10:
                 temp += "\n You attack the dragon and it does damage!"
                 self.get_enemies_dictionary()[1].set_hp(self.get_enemies_dictionary()[1].get_hp() - player.attack())
@@ -335,7 +340,10 @@ class Events:
             temp += "------------------------------------------------------------"
             
             temp += "DRAGON ATTACK: #############################################"
+            
+            #Roll dragon attack
             roll = self.roll_D20()    
+            
             if roll >= 10:
                 temp += "\n The dragon attack the you and it does damage!"
                 player.set_health(player.get_health() - self.get_enemies_dictionary()[1].get_atk())
@@ -349,7 +357,8 @@ class Events:
                 self.set_event_running(False)
             
         
-        temp+= "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        temp += "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        print(temp)
         
         #Return player after event is done (either dead or alive)
         return player

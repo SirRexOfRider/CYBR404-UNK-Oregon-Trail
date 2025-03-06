@@ -23,11 +23,14 @@ class Player:
     
     #Display inventory
     def display_inventory(self):
-        temp = ["INVENTORY: \n\t"]
+        temp = "INVENTORY: \n\t"
+        temp_list = []
         temp_num = 0
         for item in self.get_inventory():
             temp_num += 1
-            temp.append(str(temp_num) + ": " + item.get_weapon_name())
+            temp_list.append(str(temp_num) + ": " + item.get_weapon_name())
+            
+        temp += str(temp_list)
             
         return temp
     
@@ -78,4 +81,4 @@ class Player:
     #To string
     def __str__(self):
         return "PLAYER: \n\tHealth: " + str(self.get_health()) + "\n\tEquiped Weapon: " +  (self.get_equiped_weapon().get_weapon_name()) + "\n\tLocation Number: " + str(self.get_location_num()) \
-        + "\n\tInventory: " + str(self.get_inventory()) + "\n\tLocation History: " + str(self.get_location_history())
+        + "\n\t" + str(self.display_inventory()) + "\n\tLOCATION HISTORY: \n\t" + str(self.get_location_history())
