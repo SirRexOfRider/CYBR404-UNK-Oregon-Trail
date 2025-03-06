@@ -60,7 +60,7 @@
 - 6.3 [Code and Security Testing Results](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Testing/CSTR.md)
 
 **Section 7: Maintenance**
-- 7.1 [Maintenance Overview]()
+- 7.1 [Maintenance Overview](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Maintenance/MaintenanceOverview.md)
   
 - 7.2 [Maintenance Timeline]()
 
