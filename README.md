@@ -62,5 +62,5 @@
 **Section 7: Maintenance**
 - 7.1 [Maintenance Overview](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Maintenance/MaintenanceOverview.md)
   
-- 7.2 [Maintenance Timeline]()
+- 7.2 [Maintenance Timeline](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Maintenance/MaintenanceTimeline.md)
 
