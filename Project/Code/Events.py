@@ -277,7 +277,7 @@ class Events:
         #Concatenate string to print based on what happens
         temp = "\n"
         
-        temp += "You make it to discovery hall. You're so close adam's class! \n"
+        temp += "You Made it to Warner Hall! It's is quite dusty... \n"
         
         #SPPIIINN THE WHEEEELLLL
         roll = self.roll_D20()
