@@ -53,8 +53,14 @@
 - 5.1 [Implementation Progress Outline](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Implementation/Implementation.md)
 
 **Section 6: Testing**
-- [nothin here](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/tree/main/Project/Testing)
+- 6.1 [Code and Security Testing Overview]()
+  
+- 6.2 [Code and Security Testing Plan]()
+  
+- 6.3 [Code and Security Testing Results]()
 
 **Section 7: Maintenance**
-- [Also nothing here](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/tree/main/Project/Maintenance)
+- 7.1 [Maintenance Overview]()
+  
+- 7.2 [Maintenance Timeline]()
 
