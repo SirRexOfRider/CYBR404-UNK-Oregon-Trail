@@ -63,6 +63,9 @@
 - 6.3 [Code and Security Testing Results](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Testing/CSTR.md)
 
 **Section 7: Maintenance**
+
+- [Final Slides](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/CYBR%20404%20Project%201%20Final%20Presentation.pdf)
+
 - 7.1 [Maintenance Overview](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Maintenance/MaintenanceOverview.md)
   
 - 7.2 [Maintenance Timeline](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Maintenance/MaintenanceTimeline.md)
