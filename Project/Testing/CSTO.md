@@ -6,19 +6,19 @@ We also want to make sure that depending on what time of incorrect input is take
 
 Specifically, final tests will need to assess the following:
 
-### String input assessments
+### String Input Assessments
 
 -	Does string input break the program? 
 -	Does string input get an appropriate error message? 
 -	Does corrections to input result in getting stuck in a while loop, or is the user able to continue the game?
 
-### Integer input assessments
+### Integer Input Assessments
 
 - Does incorrect integer input break the program?
 - Does incorrect integer input get an appropriate error message? 
 - Does corrections to input result in getting stuck in a while loop, or is the user able to continue the game? 
 
-### Float input assessments
+### Float Input Assessments
 
 - Does float input break the program? 
 -	Does float input get an appropriate error message? 
