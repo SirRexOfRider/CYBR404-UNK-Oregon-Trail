@@ -53,6 +53,9 @@
 - 5.1 [Implementation Progress Outline](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Implementation/Implementation.md)
 
 **Section 6: Testing**
+
+- [Testing Output](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Testing/Testing.md)
+
 - 6.1 [Code and Security Testing Overview](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Testing/CSTO.md)
   
 - 6.2 [Code and Security Testing Plan](https://github.com/SirRexOfRider/CYBR404-UNK-Oregon-Trail/blob/main/Project/Testing/CSTP.md)
